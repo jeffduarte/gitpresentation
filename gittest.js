@@ -2,8 +2,10 @@ add = (a = 1, b = 2) => console.log(a + b);
 
 sub = (a = 1, b = 2) => console.log(a - b);
 
-mult = (a = 1, b = 2) => console.log(a * b);
-
+mult = (a = 1, b = 2) => {
+  console.log(a * b);
+  console.log("new branch");
+}
 div = (a = 1, b = 2) => {console.log(a / b)};
 
 div();
