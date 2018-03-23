@@ -1,4 +1,4 @@
-//STASH
+﻿//STASH
 
 git stash list
 git stash save "mensagem tal"
@@ -27,3 +27,4 @@ git remote --verbose ou git remote -v
 git push origin master
 git pull origin master
 git clone https://github.com/rodrigobranas/gitpresentation gitpresentation2
+git fetch
