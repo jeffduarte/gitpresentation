@@ -1,0 +1,29 @@
+//STASH
+
+git stash list
+git stash save "mensagem tal"
+git stash pop
+git stash apply stash@{index}
+git stash drop stash@{index}
+git stash clear
+git stash branch feature5
+
+
+git init
+git add -A
+git commit -m "Alteração na função ADD"
+git log --oneline --decorate --all --graph
+git branch
+git branch feature1
+cat .git/HEAD
+get checkout feature1
+git commit --amend -m "Completed Subtract Function"
+git log --stat
+git merge feature1
+git branch -d feature1
+git checkout -b feature2
+git remote add origin http://github.com/rodrigobranas/gitpresentation
+git remote --verbose ou git remote -v 
+git push origin master
+git pull origin master
+git clone https://github.com/rodrigobranas/gitpresentation gitpresentation2

@@ -7,7 +7,7 @@ mult = (a = 1, b = 2) => {
   console.log("new branch");
   console.log("");
 }
-div = (a = 1, b = 2) => {console.log(a / b)};
+div = (a = 1, b = 2) => {console.log(a / b)}; asdsadasd
 
 div();
 
