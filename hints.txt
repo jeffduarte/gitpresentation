@@ -1,0 +1,1 @@
+$_SERVER['REQUEST_METHOD']; --> pega o tipo de requisição (POST OU GET) que você usou para chegar na página
